@@ -169,9 +169,8 @@ selection, redacted errors and Chrome tab ownership. To add a provider, implemen
 `search(query, country, language)` returning the same JSON shape, then register
 it in `serp.py`.
 
-This is a small reimplementation of parsing/provider ideas from
-[SEOShipper/google-scraper](https://github.com/SEOShipper/google-scraper) and the
-serp-master approach. Production infrastructure and source history are not included.
+This is a small, standalone reimplementation of the parsing ideas we use in our own
+rank tracking. Production infrastructure is not included.
 
 ## Licence
 
